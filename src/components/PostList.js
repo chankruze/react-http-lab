@@ -26,6 +26,7 @@ class PostList extends Component {
         // method: 'get'
         //     url: API_END_POINT_POSTS
         // }
+        // axios(config).then().catch()
         axios.get(API_END_POINT_POSTS)
             .then(res => {
                 console.log(`GET STATUS: ${res.status}`)
